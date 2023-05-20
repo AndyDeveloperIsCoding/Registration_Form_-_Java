@@ -1,0 +1,85 @@
+databaseChangeLog:
+  - changeSet:
+      id: 3
+      author: developerAndy
+      changes:
+        - sql:
+            dbms: postgresql
+            sql: |
+              INSERT INTO sectors (sector_name) VALUES ('Manufacturing');
+              INSERT INTO sectors (sector_name) VALUES ('Construction materials');
+              INSERT INTO sectors (sector_name) VALUES ('Electronics and Optics');
+              INSERT INTO sectors (sector_name) VALUES ('Food and Beverage');
+              INSERT INTO sectors (sector_name) VALUES ('Bakery & confectionery products');
+              INSERT INTO sectors (sector_name) VALUES ('Beverages');
+              INSERT INTO sectors (sector_name) VALUES ('Fish & fish products');
+              INSERT INTO sectors (sector_name) VALUES ('Milk & dairy products');
+              INSERT INTO sectors (sector_name) VALUES ('Sweets & snack food');
+              INSERT INTO sectors (sector_name) VALUES ('Furniture');
+              INSERT INTO sectors (sector_name) VALUES ('Bathroom/sauna');
+              INSERT INTO sectors (sector_name) VALUES ('Bedroom');
+              INSERT INTO sectors (sector_name) VALUES ('Children’s room');
+              INSERT INTO sectors (sector_name) VALUES ('Kitchen');
+              INSERT INTO sectors (sector_name) VALUES ('Living room');
+              INSERT INTO sectors (sector_name) VALUES ('Office');
+              INSERT INTO sectors (sector_name) VALUES ('Other (Furniture)');
+              INSERT INTO sectors (sector_name) VALUES ('Outdoor');
+              INSERT INTO sectors (sector_name) VALUES ('Project furniture');
+              INSERT INTO sectors (sector_name) VALUES ('Machinery');
+              INSERT INTO sectors (sector_name) VALUES ('Machinery components');
+              INSERT INTO sectors (sector_name) VALUES ('Machinery equipment/tools');
+              INSERT INTO sectors (sector_name) VALUES ('Manufacture of machinery');
+              INSERT INTO sectors (sector_name) VALUES ('Maritime');
+              INSERT INTO sectors (sector_name) VALUES ('Aluminium and steel workboats');
+              INSERT INTO sectors (sector_name) VALUES ('Boat/Yacht building');
+              INSERT INTO sectors (sector_name) VALUES ('Ship repair and conversion');
+              INSERT INTO sectors (sector_name) VALUES ('Metal structures');
+              INSERT INTO sectors (sector_name) VALUES ('Other');
+              INSERT INTO sectors (sector_name) VALUES ('Repair and maintenance service');
+              INSERT INTO sectors (sector_name) VALUES ('Metalworking');
+              INSERT INTO sectors (sector_name) VALUES ('Construction of metal structures');
+              INSERT INTO sectors (sector_name) VALUES ('Houses and buildings');
+              INSERT INTO sectors (sector_name) VALUES ('Metal products');
+              INSERT INTO sectors (sector_name) VALUES ('Metal works');
+              INSERT INTO sectors (sector_name) VALUES ('CNC-machining');
+              INSERT INTO sectors (sector_name) VALUES ('Forgings, Fasteners');
+              INSERT INTO sectors (sector_name) VALUES ('Gas, Plasma, Laser cutting');
+              INSERT INTO sectors (sector_name) VALUES ('MIG, TIG, Aluminum welding');
+              INSERT INTO sectors (sector_name) VALUES ('Plastic and Rubber');
+              INSERT INTO sectors (sector_name) VALUES ('Packaging');
+              INSERT INTO sectors (sector_name) VALUES ('Plastic goods');
+              INSERT INTO sectors (sector_name) VALUES ('Plastic processing technology');
+              INSERT INTO sectors (sector_name) VALUES ('Blowing');
+              INSERT INTO sectors (sector_name) VALUES ('Moulding');
+              INSERT INTO sectors (sector_name) VALUES ('Plastics welding and processing');
+              INSERT INTO sectors (sector_name) VALUES ('Plastic profiles');
+              INSERT INTO sectors (sector_name) VALUES ('Printing');
+              INSERT INTO sectors (sector_name) VALUES ('Advertising');
+              INSERT INTO sectors (sector_name) VALUES ('Book/Periodicals printing');
+              INSERT INTO sectors (sector_name) VALUES ('Labelling and packaging printing');
+              INSERT INTO sectors (sector_name) VALUES ('Textile and Clothing');
+              INSERT INTO sectors (sector_name) VALUES ('Clothing');
+              INSERT INTO sectors (sector_name) VALUES ('Textile');
+              INSERT INTO sectors (sector_name) VALUES ('Wood');
+              INSERT INTO sectors (sector_name) VALUES ('Other (Wood)');
+              INSERT INTO sectors (sector_name) VALUES ('Wooden building materials');
+              INSERT INTO sectors (sector_name) VALUES ('Wooden houses');
+              INSERT INTO sectors (sector_name) VALUES ('Other');
+              INSERT INTO sectors (sector_name) VALUES ('Creative industries');
+              INSERT INTO sectors (sector_name) VALUES ('Energy technology');
+              INSERT INTO sectors (sector_name) VALUES ('Environment');
+              INSERT INTO sectors (sector_name) VALUES ('Service');
+              INSERT INTO sectors (sector_name) VALUES ('Business services');
+              INSERT INTO sectors (sector_name) VALUES ('Engineering');
+              INSERT INTO sectors (sector_name) VALUES ('Information Technology and Telecommunications');
+              INSERT INTO sectors (sector_name) VALUES ('Data processing, Web portals, E-marketing');
+              INSERT INTO sectors (sector_name) VALUES ('Programming, Consultancy');
+              INSERT INTO sectors (sector_name) VALUES ('Software, Hardware');
+              INSERT INTO sectors (sector_name) VALUES ('Telecommunications');
+              INSERT INTO sectors (sector_name) VALUES ('Tourism');
+              INSERT INTO sectors (sector_name) VALUES ('Translation services');
+              INSERT INTO sectors (sector_name) VALUES ('Transport and Logistics');
+              INSERT INTO sectors (sector_name) VALUES ('Air');
+              INSERT INTO sectors (sector_name) VALUES ('Rail');
+              INSERT INTO sectors (sector_name) VALUES ('Road');
+              INSERT INTO sectors (sector_name) VALUES ('Water');
